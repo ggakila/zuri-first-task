@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haggai Gisore: Stage One Task</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&family=Tilt+Prism&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- slack name and display picture -->
+        <header>
+            <img data-testid="slackDisplayImage" src="./images/slack_dp.jpg" alt="Haggai Gisore"/>
+            <div class="namez">
+
+                <h1 data-testid="slackUserName">Haggai Gisore</h1>
+                <img src="./images/slack-icon.png" id="icon" alt="slack_icon"/>
+            </div>
+        </header>
+        <!-- Day of the week - UTC Time - Track - My Github URL -->
+        <main>
+            <div class="items">
+                <h2>Current Day of the Week:</h2>
+                <p data-testid="currentDayOfTheWeek" id="curr_date"></p>
+            </div>
+            <div class="items">
+                <h2>Current UTC Time:</h2>
+                <p data-testid="currentUTCTime" id="utc_time"></p>
+            </div>
+            <div class="items">
+                <h2>Track:</h2>
+                <p data-testid="myTrack">Frontend</p>
+            </div>
+            <div  class="items">
+                <h2>GitHUb URL</h2>
+                <a href="https://github.com/ggakila/zuri-first-task" data-testid=“githubURL” target="_blank">GitHub Repository</a>
+            </div>
+        </main>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
